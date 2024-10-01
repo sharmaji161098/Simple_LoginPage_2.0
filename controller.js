@@ -34,8 +34,6 @@ async function addEmp(req, res) {
 
 //post
 async function validateEmp(req, res) {
-    
-    //const employee = await user.findOne ({ email });
 
     try {
         const { email, password } = req.body;
