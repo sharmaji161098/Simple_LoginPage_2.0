@@ -1,8 +1,8 @@
-CREATE DATABASE user_database;
+CREATE DATABASE emp_database;
 
 --\c into user_database
 
-CREATE TABLE client (
+CREATE TABLE Employee (
     user_id SERIAL PRIMARY KEY,
     email VARCHAR(255),
     password CHAR(255),
